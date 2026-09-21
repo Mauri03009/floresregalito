@@ -1,4 +1,4 @@
-# Sorpresa de primavera para Nova
+# Sorpresa de primavera
 
 Una página romántica, elegante y responsive para regalar por el Día de la Primavera. Tiene una pantalla de entrada, flores amarillas animadas, destellos, corazones, frases secuenciales y fuegos artificiales hechos con Three.js.
 
