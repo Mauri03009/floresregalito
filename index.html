@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#060916" />
+    <meta name="description" content="Una sorpresa de primavera para Nova." />
+    <title>Para Nova — Feliz primavera</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="fireworks" aria-hidden="true"></canvas>
+    <div class="night-glow" aria-hidden="true"></div>
+    <div class="stars" aria-hidden="true"></div>
+    <main>
+      <section class="intro" id="intro" aria-labelledby="intro-title">
+        <h1 id="intro-title">Para mi princesa hermosa <span aria-hidden="true"><br>❤️</span></h1>
+        <p class="intro-copy">Tengo una pequeña sorpresa para ti.</p>
+        <button id="open-gift" type="button"><span aria-hidden="true"></span> Abrir mi regalo</button>
+      </section>
+
+      <section class="surprise" id="surprise" aria-live="polite" aria-hidden="true">
+        <div class="message-wrap">
+          <p class="message active">Feliz primavera, mi amor <span aria-hidden="true">🌼</span></p>
+          <p class="message">Te amo mucho. <br>❤️</p>
+          <p class="message">Sos esa personita que hace florecer mi vida.</p>
+          <p class="message">Gracias por llenar mi vida de momentos hermosos.</p>
+          <p class="message closing">Que esta primavera sea otra de las tantas que pueda compartir con vos. <span aria-hidden="true">❤️</span></p>
+          <button class="replay" id="replay" type="button">Volver a verlo</button>
+        </div>
+        <div class="flower-field" id="flower-field" aria-hidden="true"></div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
